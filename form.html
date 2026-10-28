@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <h1>Student Information Form</h1>
+    <form action="thanks.html" method="get">
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+        <label>Department:</label>
+        <select name="department">
+            <option value="AI">AI</option>
+            <option value="CS">CS</option>
+            <option value="SE">SE</option>
+            <option value="EE">EE</option>
+        </select>
+        <br><br>
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="Web"> Web
+        <input type="checkbox" name="interests" value="AI"> AI
+        <input type="checkbox" name="interests" value="Games"> Games
+        <br><br>
+        <label>Comments:</label>
+        <br>
+        <textarea name="comments" rows="4" cols="30"></textarea>
+        <br><br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
